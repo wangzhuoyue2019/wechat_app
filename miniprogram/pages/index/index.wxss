@@ -1,0 +1,71 @@
+/**index.wxss**/
+
+.gradient-bg { /* 搜索栏与轮播图颜色渐变设置 */
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, #c24214, #f7d7d7);
+}
+
+.search-bar { /* 搜索栏布局 */
+  display: flex;
+  width: 90%;
+  height: 50rpx;
+  margin: 0rpx auto;
+  padding: 5rpx;
+  background-color: #f4f4f4;
+  border-radius: 30rpx;
+  font-size: 13px;
+}
+.sousuo_input { /* 搜索输入框布局 */
+  margin-left: 5%;
+}
+
+.sousuo { /*搜索图标调试*/
+  display: flex;
+  margin-top: 1%;
+  margin-left: 3%;
+  height: 16px;
+  width: 16px;
+}
+
+/*轮播图样式*/
+.swiper-item {
+  height: 300rpx;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 5%;
+}
+.swiper-image {
+  height: 100%;
+  width: 100%; 
+  border-radius: 10rpx;
+}
+/*公告样式*/
+.announce{
+  display: flex;
+  flex-direction: row ;
+  width: 90%;
+  height: 80rpx;
+  margin: 5% auto;
+  border: 1px solid  #e9e5c1;
+  border-radius: 10rpx;
+  background-color: #e9e5c1;
+}
+
+.announce-text{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2%;
+  font-size: 32rpx;
+  font-weight: bold;
+  color: #ff8c00;
+  text-shadow: 1rpx 1rpx #666;
+}
+
+.announce-text-one{
+  display: flex;
+  margin-left: 5%;
+  margin-top: 2.5%;
+  font-size: 29rpx;
+  color: #ff8c00;
+}

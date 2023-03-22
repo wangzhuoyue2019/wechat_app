@@ -1,0 +1,30 @@
+<!--index.wxml-->
+<page>
+  <view class="gradient-bg"> <!-- 搜索轮播图模块 -->
+    <view class="search-bar" bindtap="onSearch">
+      <!-- 搜索图片 -->
+      <image class="sousuo" src="../../images/index/sousuo.png" /> 
+      <input class="sousuo_input" type="text" placeholder="搜索医生"/>
+    </view>
+
+    <!-- 首页轮播图 -->
+    <swiper indicator-dots="{{indicatorDots}}" autoplay="{{autoplay}}" interval="{{interval}}" duration="{{duration}}" class="swiper-item">
+      <block wx:for="{{images}}" wx:key="index">
+        <swiper-item>
+          <image class="swiper-image" src="{{item}}" mode="aspectFill"></image>
+        </swiper-item>
+      </block>
+    </swiper>
+  </view>
+  <!-- 公告以及功能模块 -->
+  <view>
+    <!-- 公告模块 -->
+    <view class="announce">
+      <text class="announce-text">公告</text>
+      <text class="announce-text-one">{{announce}}</text>
+    </view>
+    <!-- 功能模块 -->
+  </view>
+
+</page>
+
