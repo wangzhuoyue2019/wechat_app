@@ -1,0 +1,23 @@
+动漫资源网站：https://www.dmxq.fun/
+可视化前端代码生成器：https://www.bootcss.com/p/layoutit/
+
+pip install pysandbox-master -i https://pypi.tuna.tsinghua.edu.cn/simple
+pip install -i http://mirrors.aliyun.com/pypi/simple tensorflow 
+pip install tensorflow -i http://mirrors.aliyun.com/pypi/simple/ --trusted-host mirrors.aliyun.com
+
+
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/free/
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/pkgs/main/
+conda config --set show_channel_urls yes
+conda config --add channels https://mirrors.tuna.tsinghua.edu.cn/anaconda/cloud/pytorch/
+
+pdf转emf文件：https://cloudconvert.com/pdf-to-emf
+激活码：http://idea.955code.com/
+
+C:\Users\Hasee\AppData\Local\Temp\docker-index #docker文件清理
+docker build -t my-django-app:latest #docker打包
+
+$ docker pull registry.docker-cn.com/library/python:3.8
+https://docker.easydoc.net/
+https://61d3d9dbcadf413fd3238e89--nonebot2.netlify.app/guide/installation.html
+视频解析：https://bilibili.iiilab.com/
